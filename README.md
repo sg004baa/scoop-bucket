@@ -15,6 +15,7 @@ scoop install sg004baa/<manifestname>
 
 | App | Description |
 | --- | --- |
+| [`anywhere-nvim`](bucket/anywhere-nvim.json) | Tray-resident tool that edits the focused input field of any Windows app in an embedded Neovim ([upstream](https://github.com/sg004baa/anywhere-nvim)) |
 | [`fyler`](bucket/fyler.json) | GUI file manager for Windows that edits the filesystem tree like a Neovim buffer ([upstream](https://github.com/sg004baa/fyler.windows)) |
 
 Manifests are kept current by the [Excavator](.github/workflows/excavator.yml)

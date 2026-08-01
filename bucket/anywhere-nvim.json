@@ -1,0 +1,41 @@
+{
+    "version": "0.1.1",
+    "description": "Tray-resident Windows tool that edits the focused input field of any app in an embedded Neovim",
+    "homepage": "https://github.com/sg004baa/anywhere-nvim",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sg004baa/anywhere-nvim/releases/download/v0.1.1/anywhere-nvim-v0.1.1-windows-x64-portable.zip",
+            "hash": "d026caababbe9eef9231e38f22654bca3440605f69830180472734fe3f53fe40",
+            "extract_dir": "anywhere-nvim"
+        }
+    },
+    "bin": "anywhere-nvim.exe",
+    "shortcuts": [
+        [
+            "anywhere-nvim.exe",
+            "anywhere-nvim"
+        ]
+    ],
+    "notes": [
+        "Run 'anywhere-nvim' once; it stays in the tray. Ctrl+Alt+E edits the focused input field.",
+        "Neovim is bundled inside the app directory; no separate nvim installation is required.",
+        "Scoop does not register an autostart entry. Add a shortcut to shell:startup yourself,",
+        "or use the setup.exe from the release page, which offers a sign-in autostart task.",
+        "Local config lives outside the Scoop app directory and survives updates:",
+        "%LOCALAPPDATA%\\anywhere-nvim = init.lua (NVIM_APPNAME namespace).",
+        "%LOCALAPPDATA%\\anywhere-nvim-data = shada and state.",
+        "'scoop uninstall anywhere-nvim' does not remove them; delete those folders manually."
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sg004baa/anywhere-nvim/releases/download/v$version/anywhere-nvim-v$version-windows-x64-portable.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
