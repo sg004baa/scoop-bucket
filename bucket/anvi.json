@@ -1,12 +1,12 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Tray-resident Windows tool that edits the focused input field of any app in an embedded Neovim",
-    "homepage": "https://github.com/sg004baa/anywhere-nvim",
+    "homepage": "https://github.com/sg004baa/anvi",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sg004baa/anywhere-nvim/releases/download/v0.2.0/anvi-v0.2.0-windows-x64-portable.zip",
-            "hash": "bf26e5a60d5ead610f961dc4bd9f426c13c1d217b7781d3840033fdb37f616cc",
+            "url": "https://github.com/sg004baa/anvi/releases/download/v0.2.1/anvi-v0.2.1-windows-x64-portable.zip",
+            "hash": "f4316e5184f3f9281687f07847f503d2134df86aa7bbeba934592d4fa3088b46",
             "extract_dir": "anvi"
         }
     },
@@ -22,7 +22,8 @@
         "Enable the tray menu's startup item to launch anvi at sign-in.",
         "Neovim and the Moralerspace Argon HW font are bundled; nothing else needs to be installed.",
         "Local config lives outside the Scoop app directory and survives updates:",
-        "%LOCALAPPDATA%\\anvi = init.lua (NVIM_APPNAME namespace).",
+        "Config lives where Neovim puts it: %XDG_CONFIG_HOME%\\anvi\\init.lua, or %LOCALAPPDATA%\\anvi\\init.lua when XDG_CONFIG_HOME is unset.",
+        "The startup log names the exact directory it looked in: %LOCALAPPDATA%\\anvi-data\\log\\anvi.log.",
         "%LOCALAPPDATA%\\anvi-data = shada, state and the log.",
         "'scoop uninstall anvi' does not remove them; delete those folders manually."
     ],
@@ -30,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sg004baa/anywhere-nvim/releases/download/v$version/anvi-v$version-windows-x64-portable.zip"
+                "url": "https://github.com/sg004baa/anvi/releases/download/v$version/anvi-v$version-windows-x64-portable.zip"
             }
         },
         "hash": {
