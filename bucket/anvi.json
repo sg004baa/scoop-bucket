@@ -1,12 +1,12 @@
 {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Tray-resident Windows tool that edits the focused input field of any app in an embedded Neovim",
     "homepage": "https://github.com/sg004baa/anvi",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sg004baa/anvi/releases/download/v0.2.1/anvi-v0.2.1-windows-x64-portable.zip",
-            "hash": "f4316e5184f3f9281687f07847f503d2134df86aa7bbeba934592d4fa3088b46",
+            "url": "https://github.com/sg004baa/anvi/releases/download/v0.3.0/anvi-v0.3.0-windows-x64-portable.zip",
+            "hash": "cbbbd255b7ef26c7a3477f4e2f15c7891a3f80b8bde9c8d9bcf356d9c848da31",
             "extract_dir": "anvi"
         }
     },
