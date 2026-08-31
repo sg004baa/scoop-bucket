@@ -17,6 +17,7 @@ scoop install sg004baa/<manifestname>
 | --- | --- |
 | [`anvi`](bucket/anvi.json) | Tray-resident tool that edits the focused input field of any Windows app in an embedded Neovim ([upstream](https://github.com/sg004baa/anvi)) |
 | [`fyler`](bucket/fyler.json) | GUI file manager for Windows that edits the filesystem tree like a Neovim buffer ([upstream](https://github.com/sg004baa/fyler.windows)) |
+| [`wezterm`](bucket/wezterm.json) | GPU-accelerated terminal emulator fork with cursor trail and smear effects ([upstream](https://github.com/sg004baa/wezterm)) |
 
 Manifests are kept current by the [Excavator](.github/workflows/excavator.yml)
 workflow, which runs `checkver`/`autoupdate` every 4 hours.
