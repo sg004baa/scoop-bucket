@@ -27,6 +27,10 @@
             "WezTerm"
         ]
     ],
+    "post_install": [
+        "$shortcutDir = if ($global) { Join-Path $env:ProgramData 'Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps' } else { Join-Path $env:APPDATA 'Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps' }",
+        "& \"$bucketsdir\\$bucket\\scripts\\wezterm\\set-shortcut-aumid.ps1\" -TargetPath \"$dir\\wezterm-gui.exe\" -ShortcutPath (Join-Path $shortcutDir 'WezTerm.lnk') -Aumid 'org.wezfurlong.wezterm'"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
