@@ -8,12 +8,16 @@
             "url": [
                 "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm.exe",
                 "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm-gui.exe",
-                "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm-mux-server.exe"
+                "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm-mux-server.exe",
+                "https://raw.githubusercontent.com/sg004baa/wezterm/v0.1.13/assets/windows/conhost/conpty.dll",
+                "https://raw.githubusercontent.com/sg004baa/wezterm/v0.1.13/assets/windows/conhost/OpenConsole.exe"
             ],
             "hash": [
                 "8c12ff2c15aab44ed39310dbb453362bea8fc2d267e7753be1fe4d4c706a4630",
                 "e8f259531561ef4586aa561bcbe0af46dc3b0e78bd4fb73b7502767be0c374c0",
-                "69f7dd6a0df8a2546f44f315be4c3b961b03700dd25e0b0551f097b33b887646"
+                "69f7dd6a0df8a2546f44f315be4c3b961b03700dd25e0b0551f097b33b887646",
+                "375bfb0479b6c53836ab307e3f9fd17bedbd733f2e9690943d0f12e72fb80777",
+                "55b18996761c88c351820e82508e05ab0ec2194aeead20724fdfaeedec076ef4"
             ]
         }
     },
@@ -38,7 +42,9 @@
                 "url": [
                     "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm.exe",
                     "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm-gui.exe",
-                    "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm-mux-server.exe"
+                    "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm-mux-server.exe",
+                    "https://github.com/sg004baa/wezterm/releases/download/v$version/conpty.dll",
+                    "https://github.com/sg004baa/wezterm/releases/download/v$version/OpenConsole.exe"
                 ]
             }
         }
