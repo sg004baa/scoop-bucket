@@ -43,8 +43,8 @@
                     "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm.exe",
                     "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm-gui.exe",
                     "https://github.com/sg004baa/wezterm/releases/download/v$version/wezterm-mux-server.exe",
-                    "https://github.com/sg004baa/wezterm/releases/download/v$version/conpty.dll",
-                    "https://github.com/sg004baa/wezterm/releases/download/v$version/OpenConsole.exe"
+                    "https://raw.githubusercontent.com/sg004baa/wezterm/v$version/assets/windows/conhost/conpty.dll",
+                    "https://raw.githubusercontent.com/sg004baa/wezterm/v$version/assets/windows/conhost/OpenConsole.exe"
                 ]
             }
         }
