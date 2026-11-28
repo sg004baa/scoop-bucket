@@ -1,19 +1,19 @@
 {
-    "version": "0.1.13",
+    "version": "0.1.14",
     "description": "sg004baa's GPU-accelerated WezTerm fork with cursor trail and smear effects",
     "homepage": "https://github.com/sg004baa/wezterm",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm.exe",
-                "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm-gui.exe",
-                "https://github.com/sg004baa/wezterm/releases/download/v0.1.13/wezterm-mux-server.exe"
+                "https://github.com/sg004baa/wezterm/releases/download/v0.1.14/wezterm.exe",
+                "https://github.com/sg004baa/wezterm/releases/download/v0.1.14/wezterm-gui.exe",
+                "https://github.com/sg004baa/wezterm/releases/download/v0.1.14/wezterm-mux-server.exe"
             ],
             "hash": [
-                "8c12ff2c15aab44ed39310dbb453362bea8fc2d267e7753be1fe4d4c706a4630",
-                "e8f259531561ef4586aa561bcbe0af46dc3b0e78bd4fb73b7502767be0c374c0",
-                "69f7dd6a0df8a2546f44f315be4c3b961b03700dd25e0b0551f097b33b887646"
+                "f38a3f371ba3f7c7f2d7bb22fcff819a522afdab61461689f690214c19057c54",
+                "175c688b0357af83502fca451b62337e463015d5c943522c74342416f87fe935",
+                "6b6704aac7078750f730346d229def1228e388c95f813e138e24a8c8f8e5a8c5"
             ]
         }
     },
